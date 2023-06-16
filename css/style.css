@@ -42,10 +42,6 @@ body {
     color: var(--cor-texto-enfase);
 }
 
-.container__apresentacao{
-    padding-left: 5em;
-}
-
 .enfase-principal {
     font-weight: 700;
     text-transform: uppercase;
@@ -68,13 +64,12 @@ body {
 .imagem-principal{
     width: 40%;
     height: auto;
-    padding: 0 2em;
 }
 
 .container__principal{
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     align-items: center;
 }
