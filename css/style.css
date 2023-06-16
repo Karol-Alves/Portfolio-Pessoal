@@ -19,7 +19,7 @@ body {
 
 .container__cabecalho {
     background-color: var(--cabecalho-cor-fundo);
-    padding: 1em 0;
+    padding: 1.5em 0;
 }
 
 .container__cabecalho__lista {
