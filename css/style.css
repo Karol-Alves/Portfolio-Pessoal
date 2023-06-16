@@ -19,7 +19,7 @@ body {
 
 .container__cabecalho {
     background-color: var(--cabecalho-cor-fundo);
-    padding: 1.5em 0;
+    padding: 1em 0;
 }
 
 .container__cabecalho__lista {
@@ -50,18 +50,18 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: var(--cor-texto);
-    font-size: 80px;
+    font-size: 70px;
     padding-bottom: 0.5em;
 }
 
 .texto-principal {
     color: var(--cor-texto);
-    font-size: 44px;
+    font-size: 36px;
 }
 
 .texto-principal-enfase {
     color: var(--cor-texto-enfase);
-    font-size: 41px;
+    font-size: 34px;
     padding-bottom: 1em;
 }
 
