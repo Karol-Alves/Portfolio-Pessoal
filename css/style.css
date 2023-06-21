@@ -61,8 +61,9 @@ body {
     padding-bottom: 1em;
 }
 
-.imagem-principal {
-    width: 40%;
+.imagem-principal,
+.container__apresentacao {
+    width: 50%;
     height: auto;
 }
 
@@ -75,10 +76,16 @@ body {
 }
 
 .imagem-principal img {
-    width: 100%;
+    width: 80%;
 }
 
 /*About me*/
+
+.about-me,
+.experience,
+.index {
+    padding-top: 3em;
+}
 
 .enfase-principal-about,
 .enfase-about,
@@ -108,12 +115,86 @@ body {
     margin-top: 10px;
 }
 
-#imagem-about {
+.imagem-about {
     width: 50%;
     padding-top: 3em;
+    height: auto;
 }
 
-#texto-about {
+.imagem-about img {
+    width: 100%;
+}
+
+.texto-about {
     width: 50%;
     padding: 0 6em;
+    height: auto;
+}
+
+/*Experiencias*/
+
+.container__texto,
+.container__imagem {
+    width: 50%;
+    padding-left: 3em;
+}
+
+.container__imagem img {
+    width: 100%;
+}
+
+.titulo-experiencias,
+.texto-experiencias {
+    color: var(--cor-texto);
+}
+
+.titulo-experiencias {
+    font-size: 44px;
+    padding-bottom: 1em;
+}
+
+.texto-experiencias {
+    font-size: 39px;
+    padding-bottom: 1em;
+}
+
+.texto-enfase-expeciencias {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--cor-texto-enfase);
+}
+
+/*Projects*/
+
+.container__apresentacao,
+.imagem-principal {
+    width: 50%;
+}
+
+.container__imagem__projects {
+    width: 13%;
+    height: auto;
+    padding: 1em 0 0 6em;
+}
+
+.container__texto__projects {
+    font-size: 30px;
+    color: var(--cor-texto);
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.container__icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagem-principal img {
+    width: 80%;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
 }
