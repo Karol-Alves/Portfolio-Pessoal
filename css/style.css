@@ -34,7 +34,7 @@ body {
     font-size: 1.5em;
     color: var(--cor-texto);
     text-decoration: none;
-    padding: 0 3em;
+    padding: 0 2em;
 }
 
 .container__cabecalho__lista__itens:hover {
@@ -73,6 +73,7 @@ body {
     justify-content: space-around;
     width: 100%;
     align-items: center;
+    padding-top: 4em;
 }
 
 .imagem-principal img {
@@ -80,12 +81,6 @@ body {
 }
 
 /*About me*/
-
-.about-me,
-.experience,
-.index {
-    padding-top: 3em;
-}
 
 .enfase-principal-about,
 .enfase-about,
@@ -171,12 +166,6 @@ body {
     width: 50%;
 }
 
-.container__imagem__projects {
-    width: 13%;
-    height: auto;
-    padding: 1em 0 0 6em;
-}
-
 .container__texto__projects {
     font-size: 30px;
     color: var(--cor-texto);
@@ -197,4 +186,180 @@ body {
 .icons {
     width: 50px;
     height: 50px;
+}
+
+@media (max-width: 767px) {
+    .container__cabecalho {
+        padding: 1em 0;
+    }
+
+    .container__cabecalho__lista {
+        justify-content: space-evenly;
+    }
+
+    .container__cabecalho__lista__itens {
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 0;
+    }
+
+    .container__principal {
+        display: block;
+        padding-top: 2em;
+    }
+
+    .container__apresentacao {
+        width: auto;
+    }
+
+    .imagem-principal {
+        padding-top: 1em;
+        width: auto;
+    }
+
+    .texto-principal,
+    .texto-principal-enfase,
+    .enfase-principal {
+        padding: 0 1em;
+    }
+
+    .texto-principal,
+    .texto-principal-enfase {
+        font-size: 30px;
+        padding-bottom: 0.5em;
+    }
+
+    .enfase-principal {
+        padding: 0;
+    }
+
+    /*About me*/
+    .enfase-principal-about,
+    .texto-principal-about,
+    .enfase-about {
+        font-size: 20px;
+    }
+
+    .texto-about {
+        padding: 0 1em;
+    }
+
+    /*Experience*/
+    .container__imagem,
+    .container__texto {
+        width: auto;
+        padding: 0;
+    }
+
+    .container__imagem {
+        padding-top: 3em;
+    }
+
+    .titulo-experiencias {
+        font-size: 30px;
+        padding-bottom: 1em;
+    }
+
+    .texto-experiencias {
+        font-size: 20px;
+        padding: 0.5em 1em;
+    }
+
+    .texto-enfase-expeciencias {
+        font-size: 25px;
+    }
+
+    /*Projects*/
+    #imagem-principal-projetos {
+        display: none;
+    }
+
+    .container__imagem__projects {
+        width: 91%;
+        padding: 6em 1em 0 1em;
+    }
+
+    .container__imagem__projects img {
+        width: 100%;
+    }
+
+    .container__texto__projects {
+        font-size: 20px;
+        padding: 0.3em 0.5em;
+    }
+
+    .container__icons {
+        padding-top: 2.5em;
+    }
+
+    .icons {
+        width: 40px;
+        height: auto;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+    .container__cabecalho {
+        padding: 1em 0;
+    }
+
+    .container__cabecalho__lista {
+        justify-content: space-evenly;
+    }
+
+    .container__cabecalho__lista__itens {
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 0;
+    }
+
+    .container__principal {
+        display: block;
+    }
+
+    .container__apresentacao {
+        padding: 0 1em;
+        width: auto;
+    }
+
+    .imagem-principal {
+        padding-top: 2em;
+        width: auto;
+    }
+
+    .imagem-principal img {
+        width: 70%;
+    }
+
+    /*About*/
+    .texto-about {
+        padding: 0 1em;
+    }
+
+    /*Experience*/
+    .container__texto {
+        display: block;
+        width: auto;
+        padding: 0 2em;
+    }
+
+    .container__imagem {
+        display: block;
+        width: auto;
+    }
+
+    /*Projects*/
+    #imagem-principal-projetos {
+        display: none;
+    }
+
+    .container__imagem__projects {
+        padding-bottom: 3em;
+    }
+
+    .container__icons {
+        padding-top: 3em;
+    }
+
 }
