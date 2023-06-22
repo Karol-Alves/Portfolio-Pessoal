@@ -275,8 +275,7 @@ body {
     }
 
     .container__imagem__projects {
-        width: 91%;
-        padding: 6em 1em 0 1em;
+        width: auto;
     }
 
     .container__imagem__projects img {
